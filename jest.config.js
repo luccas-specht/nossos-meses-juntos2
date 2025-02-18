@@ -10,5 +10,5 @@ module.exports = createJestConfig({
   moduleNameMapper: {
     '@/(.*)$': './src/$1',
   },
-  setupFilesAfterEnv: ['./jest.setup.js'],
+  setupFilesAfterEnv: ['./test/jest.setup.js'],
 });
